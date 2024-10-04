@@ -7,15 +7,10 @@
   
         <div class="flex items-center">
           <UHorizontalNavigation :links="navigationLinks" class="justify-center mr-4">
-            <template v-slot="{ link }">
-              <NuxtLink 
-                :to="link.to"
-                class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
-              >
-                {{ link.label }}
-              </NuxtLink>
-            </template>
-          </UHorizontalNavigation>
+          <template #default="{ link }">
+            <span class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">{{ link.label }}</span>
+          </template>
+        </UHorizontalNavigation>
         </div>
       </div>
     </header>
