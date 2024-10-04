@@ -2,7 +2,7 @@
     <header class="py-4 px-4 md:px-8 bg-white dark:bg-gray-800">
       <div class="flex justify-between items-center">
         <div class="text-2xl font-bold text-gray-800 dark:text-white">
-          MYBUINESSMANAGER
+          BS-M
         </div>
   
         <div class="flex items-center">
